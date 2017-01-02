@@ -1,0 +1,34 @@
+# Dependencies
+markdown:    kramdown
+highlighter: rouge
+
+# Permalinks
+permalink:        pretty
+#relative_permalinks: true
+
+# Setup
+title:            Maria Kat
+tagline:          ''
+description:      ''
+url:
+baseurl:          ""
+
+author:
+  name:           'Maria Kat'
+  url:
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:
+
+# Build settings
+gems:
+  - jekyll-feed
+  - jekyll-paginate
+exclude:
+  - Gemfile
+  - Gemfile.lock
