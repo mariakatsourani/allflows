@@ -4,3 +4,4 @@ title: Projects
 ---
 
 Projects
+[Projects](/projects)

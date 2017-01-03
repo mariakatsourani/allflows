@@ -4,3 +4,4 @@ title: Resume
 ---
 
 Resume
+[Resume](/resume)

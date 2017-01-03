@@ -1,0 +1,59 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+// Variables
+$cyan:     #75b5aa; // home
+$orange:   #d28445; // about
+$blue:     #6a9fb5; // project
+$magenta:  #aa759f; // resume
+
+@hover-colors($color) {
+
+}
+
+// General styles
+a, a.sidebar-nav-item {
+    transition: .3s;
+    transition-property: color, opacity;
+
+    &:hover, &:focus {
+        text-decoration: none;
+    }
+
+    &:hover {
+        opacity: .8;
+    }
+}
+
+// Sidebar
+.sidebar {
+    a {
+        &:hover { color: darken(#fff, 10%); }
+        &:active, &:focus { color: darken(#fff, 20%); }
+    }
+
+    h1 {
+        font-family: 'Inder', sans-serif;
+    }
+
+    .copy {
+        font-size: 11px;
+    }
+}
+
+// Body
+.home a {
+    &:active, &:focus { color: darken($cyan, 10%); }
+}
+
+.about a {
+    &:active, &:focus { color: darken($orange, 10%); }
+}
+
+.projects a {
+    &:active, &:focus { color: darken($blue, 10%); }
+}
+
+.resume a {
+    &:active, &:focus { color: darken($magenta, 10%); }
+}
