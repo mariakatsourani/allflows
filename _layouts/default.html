@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-  {% include head.html %}
+    {% include head.html %}
 
-  <body class="{{ site.colorschema }}">
+    {% if page.title == "Home" %}
+        <body class="{{ site.colors.turquoise }}">
+    {% elsif page.title == "About" %}
+        <body class="{{ site.colors.orange }}">
+    {% elsif page.title == "Projects" %}
+        <body class="{{ site.colors.blue }}">
+    {% elsif page.title == "Resume" %}
+        <body class="{{ site.colors.purple }}">
+    {% endif %}
 
-    {% include sidebar.html %}
 
-    <div class="content container">
-      {{ content }}
-    </div>
+        {% include sidebar.html %}
+
+        <div class="content container">
+          {{ content }}
+        </div>
 
   </body>
 </html>

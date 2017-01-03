@@ -11,7 +11,7 @@ title:            Maria Kat
 tagline:          ''
 description:      ''
 url:
-baseurl:          ""
+baseurl:          "/"
 
 author:
   name:           'Maria Kat'
@@ -32,3 +32,9 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+colors:
+    turquoise: theme-base-0c
+    orange: theme-base-09
+    blue: theme-base-0d
+    purple: theme-base-0e
