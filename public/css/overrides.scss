@@ -1,6 +1,7 @@
 ---
 # Front matter comment to ensure Jekyll properly reads file.
 ---
+
 // Variables
 $cyan:     #75b5aa; // home
 $orange:   #d28445; // about
@@ -38,6 +39,16 @@ a, a.sidebar-nav-item {
 
     .copy {
         font-size: 11px;
+    }
+
+    .social-media {
+        list-style-type: none;
+        padding-left: 0;
+
+        li {
+            display: inline;
+            margin-right: 10px
+        }
     }
 }
 

@@ -12,11 +12,6 @@
     <nav class="sidebar-nav">
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
 
-      {% comment %}
-        The code below dynamically generates a sidebar nav of pages with
-        `layout: page` in the front-matter. See readme for usage.
-      {% endcomment %}
-
       {% assign pages_list = site.pages %}
       {% for node in pages_list %}
         {% if node.title != null %}
@@ -27,6 +22,12 @@
       {% endfor %}
 
     </nav>
+
+    <ul class="social-media">
+        <li><a target="_blank" href="{{ site.socialmedia.github }}"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+        <li><a target="_blank" href="{{ site.socialmedia.linkedin }}"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+        <li><a target="_blank" href="mailto:{{ site.socialmedia.email }}"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+    </ul>
 
     <p class="copy">&copy; {{ site.time | date: '%Y' }}. Built with <a target="_blank" href="http://hyde.getpoole.com/">Hyde</a>.</p>
   </div>
