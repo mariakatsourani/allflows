@@ -7,16 +7,8 @@ permalink:        pretty
 
 # Setup
 title:            Maria Kat
-tagline:          ''
 description:      'nothing stays.'
-url:
 baseurl:          "/"
-
-author:
-  name:           'Maria Kat'
-  url:
-
-paginate:         5
 
 # Build settings
 gems:

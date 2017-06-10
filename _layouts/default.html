@@ -1,24 +1,15 @@
+{% assign pageUrl = page.url | split: "/" %}
+
 <!DOCTYPE html>
 <html lang="en-us">
+  {% include head.html %}
 
-    {% include head.html %}
+  <body class="{% if pageUrl[1] %} {{ pageUrl[1] }} {% else %} home {% endif %}">
 
-    {% if page.title == "Home" %}
-        <body class="{{ site.colors.cyan }} home">
-    {% elsif page.title == "About" %}
-        <body class="{{ site.colors.orange }} about">
-    {% elsif page.title == "Projects" %}
-        <body class="{{ site.colors.blue }} projects">
-    {% elsif page.title == "Resume" %}
-        <body class="{{ site.colors.magenta }} resume">
-    {% endif %}
+    {% include sidebar.html %}
 
-
-        {% include sidebar.html %}
-
-        <div class="content container">
-          {{ content }}
-        </div>
-
+    <div class="content container">
+      {{ content }}
+    </div>
   </body>
 </html>
