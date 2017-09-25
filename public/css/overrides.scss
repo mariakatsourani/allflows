@@ -3,8 +3,14 @@
 ---
 
 // Variables
-$blue:     #6a9fb5; // home
-$magenta:  #aa759f; // about
+$blue:      #6a9fb5; // home
+$magenta:   #aa759f; // about
+$turquoise: #73b5aa; // vietnam
+// $tomato:    #ad4140;
+// $orange:    #d4843e;
+// $persimmon: #f5bf6f;
+// $moss:      #8faa54;
+
 
 // General styles
 a, a.sidebar-nav-item {
@@ -49,7 +55,8 @@ a, a.sidebar-nav-item {
 // Accent color per page - same logic as in hyde but not limited to specific colors
 $page-colors: (
   home: $blue,
-  about: $magenta
+  about: $magenta,
+  vietnam: $turquoise
 );
 
 @each $page, $color in $page-colors {
