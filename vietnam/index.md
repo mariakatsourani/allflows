@@ -1,4 +1,5 @@
 ---
-title: Vietnam  
-layout: page
+title: Vietnam
+layout: category-page
+list_category: vietnam
 ---
