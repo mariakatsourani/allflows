@@ -11,7 +11,7 @@ description:      'nothing stays.'
 baseurl:          "/"
 
 # Build settings
-gems:
+plugins:
   - jekyll-feed
   - jekyll-paginate
 exclude:
