@@ -1,33 +1,35 @@
 # Dependencies
-markdown:    kramdown
+markdown: kramdown
 highlighter: rouge
 
 # Permalinks
-permalink:        pretty
+permalink: pretty
 
 # Setup
-title:            Maria Kat
-description:      'nothing stays.'
-baseurl:          "/"
+title: All flows
+description: 'nothing stays.'
+baseurl: "/"
+
+author:
+  name: 'Maria Kat'
+
+excerpt_separator: <!--more-->
 
 # Build settings
 plugins:
   - jekyll-feed
-  - jekyll-paginate
 exclude:
   - Gemfile
   - Gemfile.lock
 
 colors:
-    cyan:       theme-base-0c
-    orange:     theme-base-09
-    blue:       theme-base-0d
-    magenta:    theme-base-0e
+  blue: theme-base-0d
+  magenta: theme-base-0e
 
 # Custom vars
-version:          2.1.0
+version: 2.1.0
 
 socialmedia:
-    github:     https://github.com/mariakatsourani
-    linkedin:   https://www.linkedin.com/in/mariakatsourani
-    email:      maria.katsourani@outlook.com
+  github: https://github.com/mariakatsourani
+  linkedin: https://www.linkedin.com/in/mariakatsourani
+  email: maria.katsourani@outlook.com
