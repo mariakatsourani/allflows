@@ -4,10 +4,11 @@ layout: default
 {% assign cat = page.list_category %}
 <div class="page">
   <h1 class="page-title">{{ page.title }}</h1>
-  {% for page in site.pages %}
-    {% if page.category == cat %}
-      <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
-      <p href="">{{ page.excerpt }}</p>
+  <p>{{ page.summary }}</p>
+  {% for post in site.pages %}
+    {% if post.category == cat %}
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <p>{{ post.excerpt }}</p>
     {% endif %}
   {% endfor %}
 </div>
