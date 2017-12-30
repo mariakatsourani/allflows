@@ -15,7 +15,7 @@ Humidity, glass, lack of trees, no fiber food, drops of AC water, layers of post
 ![Glass]({{ '/images/hong-kong/glass.jpg' | relative_url }})
 
 #### Smells
-Exaust fumes, air pollution, cantonese food, fried, raw meet and fish
+Exhaust fumes, air pollution, cantonese food, fried, raw meet and fish
 
 #### Visual
 Smog, night lights, neon signs, business, glitz, tiny living spaces, bamboo scaffolding, jewellery shops, skincare shops, western clothing brands, mountains, skyscrapers, cranes, gray tones
