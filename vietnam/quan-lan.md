@@ -10,7 +10,7 @@ A small strip of sand east of Hanoi.
 
 There is white sand, sea shells and greenery. Plenty of beaches and homestays. Apparently this is a popular destination for domestic tourists since there are lots of homestays/restaurants for the size of the island but there is barely anyone that speaks English here.
 
-![Boats left behind]({{ '/images/quan-lan/boats-low-tide.jpg' | relative_url }})
+![Boats left behind]({{ '/public/images/quan-lan/boats-low-tide.jpg' | relative_url }})
 
 We wanted to escape from the touristic buzz of Hanoi but this is the other extreme. We had to use translation apps to communicate even the simplest things. 
 
@@ -20,8 +20,8 @@ The hotels there seemed to mostly cater to local tourists. Especially in the nor
 
 The natural beauty of the island gave us hours of pure joy and relaxation. The Minh Châu beach on the south was very disappointing. We found a choped up animal spread on the beach a dead rat, a few jellyfish and a lot of garbage. This even though it was one of the highest rated beaches on the island was thankfully not the norm.
 
-![Water draining during low tide]({{ '/images/quan-lan/ditches-low-tide.jpg' | relative_url }})
+![Water draining during low tide]({{ '/public/images/quan-lan/ditches-low-tide.jpg' | relative_url }})
 
 On the west side of the cetral part of the island we found a much cleaner beach that looked like you typical ad of a tropical beach wonderland. You can find all the sea shells, coarse white sand and peace of mind you want there. The most beautiful experience was to watch the tide lower. When the water lowered you could see small peninsulas of sand form and the ditches the water left in the sand while draining were spectacular. The setting sun brought the locals out on the beach where they started scratching the surface of the sand to reveal some sort of sea creature I suppose. 
 
-![Vietnamese out on the beach looking for crabs]({{ '/images/quan-lan/beach.jpg' | relative_url }})
+![Vietnamese out on the beach looking for crabs]({{ '/public/images/quan-lan/beach.jpg' | relative_url }})
