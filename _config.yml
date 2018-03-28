@@ -16,7 +16,7 @@ author:
 excerpt_separator: <!--more-->
 
 # Build settings
-plugins:
+plugins_dir:
   - jekyll-feed
 exclude:
   - Gemfile
