@@ -3,18 +3,8 @@ layout: default
 title: Home
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url | relative_url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.excerpt }}
-  </div>
-  {% endfor %}
+<div class="intro">
+  <h1>Hey, I am Maria!</h1>
+  <h4>I am a frontend developer based in Stockholm who enjoys the long winters!</h4>
+  <p>I am also a sewing apprentice, a pottery enthousiast and an explorer ✈️.</p>
 </div>
