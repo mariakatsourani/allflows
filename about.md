@@ -19,7 +19,7 @@ At Mojang I have the opportunity to expand and maintain [Minecraft's website](ht
 
 *Spotify (2016-2017)*
 
-At Spotify I initially developed a series of static pages that are part of [https://spotify.com](spotify.com). Those try to educate users on how to use Spotify Connect with different devices.
+At Spotify I initially developed a series of static pages that are part of [spotify.com](https://spotify.com). Those try to educate users on how to use Spotify Connect with different devices.
 
 Afterwards I moved to a new team where I worked on the new [Spotify for Developers website](https://developer.spotify.com/). The goal was to create an easier to maintain and more intuitive website that would help developers find their way through documentation easily.
 
